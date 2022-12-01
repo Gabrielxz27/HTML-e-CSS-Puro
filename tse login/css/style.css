@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  overflow: hidden;
+  background-image: url(/img/wallpaperbetter.com_1920x1080\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.logo img {
+  margin: 20px 40px;
+  width: 200px;
+
+}
+
+.area-login {
+  display: flex;
+  height: 70vh;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: RGB(8, 75, 151, 0.8);
+  width: 20rem;
+  height: 18em;
+  padding: 35px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 9px 17px 4px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 10px 9px 17px 4px rgba(0, 0, 0, 0.71);
+  box-shadow: 10px 9px 17px 4px rgba(0, 0, 0, 0.71);
+  animation-name: ease-in;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-delay: 0.5s;
+
+}
+
+@keyframes ease-in {
+  from {
+    margin-left: 100%;
+    width: 40rem;
+
+  }
+
+  to {
+    margin-left: 0;
+    width: 20rem;
+  }
+}
+
+@-moz-keyframes ease-in {
+  from {
+    margin-left: 100%;
+    width: 40rem;
+
+  }
+
+  to {
+    margin-left: 0;
+    width: 20rem;
+  }
+
+}
+
+@-webkit-keyframes ease-in {
+  from {
+    margin-left: 100%;
+    width: 40rem;
+
+  }
+
+  to {
+    margin-left: 0;
+    width: 20rem;
+  }
+
+}
+
+.login form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.login input {
+  margin-top: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  height: 40px;
+  border-radius: 8px;
+  width: auto;
+  background-color: white;
+  outline: none;
+}
+
+.login form>input::placeholder {
+  font-family: monospace;
+  color: gray;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 0px
+}
+
+input:focus {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+input[type=submit] {
+  font-size: 20px;
+  color: white;
+  width: 230px;
+  margin: 20px auto;
+  background-color: #031480;
+  cursor: pointer;
+}
+input[type=text],[type=password]{
+  font-size: 18px;
+  padding: 0 10px;
+}
+.menu {
+  display: block;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 15px;
+  margin: 0 10px;
+  width: auto;
+  height: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+
+.menu a:hover {
+  border-bottom: solid white 2px;
+
+}
+
+#home {
+  font-size: 25px;
+
+
+}
